@@ -307,6 +307,23 @@ details[open]::details-content{block-size:auto}
 </head>
 <body>
 
+<!-- Parents banner (24.11): IG bio promises free big-sibling pages; this sends parents there -->
+<a class="parents" href="https://bigkidsteps.com/free/?utm_source=instagram&amp;utm_medium=guide_banner">
+  <span class="parents-ic" aria-hidden="true">🖍️</span>
+  <span class="parents-tx"><b>Parents: free big sister &amp; big brother coloring kit</b><small>New baby coming? Printable pages for the big kid</small></span>
+  <span class="parents-go">Get it free →</span>
+</a>
+<style>
+.parents{display:flex;align-items:center;gap:12px;padding:14px 18px;background:var(--yellow);color:#000;text-decoration:none;border-bottom:3px solid #000;font-family:inherit}
+.parents-ic{font-size:30px;line-height:1}
+.parents-tx{flex:1;display:flex;flex-direction:column;line-height:1.25}
+.parents-tx b{font-size:18px}
+.parents-tx small{font-size:14px;opacity:.8}
+.parents-go{background:#000;color:var(--yellow);font-weight:800;padding:10px 16px;border-radius:999px;white-space:nowrap;font-size:15px}
+.parents:hover .parents-go{background:var(--pink);color:#000}
+@media (max-width:560px){.parents{padding:12px 14px;gap:10px}.parents-tx b{font-size:16px}.parents-tx small{display:none}.parents-go{padding:9px 12px;font-size:14px}}
+</style>
+
 <header class="bar"><div class="wrap">
   <a class="logo" href="#">Wiggle<span>melon</span></a>
   <a class="btn btn-coral" href="#pricing">Get the guide</a>
